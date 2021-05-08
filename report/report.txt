@@ -1,0 +1,17 @@
+Parameter | Mean
+------------ | -------------
+Best C | 6.0
+Best K | 1
+Best H | 0.05
+
+Error | Mean
+------------ | -------------
+Logistic Regression | 0.02428
+KNN | 0.00221
+Naive Bayes | 0.06623
+
+McNemar | Mean
+------------ | -------------
+LogReg vs KNN | 6.75
+LogReg vs NB | 7.90244
+KNN vs NB | 25.29032
