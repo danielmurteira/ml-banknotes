@@ -17,7 +17,7 @@ python banknote_authentication.py
 ```
 git clone https://github.com/danielmurteira/ml-banknotes.git
 docker build -t dmurteira/ml-banknotes .
-docker run --name ml-banknotes -v %cd%/report:/home/report -d dmurteira/ml-banknotes
+docker run --name ml-banknotes -v %cd%/report:/home/report --rm -d dmurteira/ml-banknotes
 ```
 
 ***Source:***
